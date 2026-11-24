@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.18, pytest-9.2.0, pluggy-1.7.0 -- E:\Anaconda\envs\gnn311\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Python-gnn\GNN_Operators
+collecting ... collected 17 items
+
+tests/test_edge_cases.py::test_normalization PASSED                      [  5%]
+tests/test_edge_cases.py::test_isolated_node PASSED                      [ 11%]
+tests/test_edge_cases.py::test_self_loops PASSED                         [ 17%]
+tests/test_edge_cases.py::test_duplicate_edges PASSED                    [ 23%]
+tests/test_edge_cases.py::test_empty_edges PASSED                        [ 29%]
+tests/test_edge_cases.py::test_empty_graph PASSED                        [ 35%]
+tests/test_edge_cases.py::test_feature_dimensions[4-8] PASSED            [ 41%]
+tests/test_edge_cases.py::test_feature_dimensions[4-16] PASSED           [ 47%]
+tests/test_edge_cases.py::test_feature_dimensions[4-32] PASSED           [ 52%]
+tests/test_edge_cases.py::test_feature_dimensions[16-3] PASSED           [ 58%]
+tests/test_edge_cases.py::test_message_passing PASSED                    [ 64%]
+tests/test_edge_cases.py::test_invalid_edge PASSED                       [ 70%]
+tests/test_edge_cases.py::test_invalid_adjacency PASSED                  [ 76%]
+tests/test_gradients.py::test_gcn_forward_backward PASSED                [ 82%]
+tests/test_gradients.py::test_message_passing_gradcheck PASSED           [ 88%]
+tests/test_gradients.py::test_node_update_gradcheck PASSED               [ 94%]
+tests/test_gradients.py::test_gcn_multiple_dimensions PASSED             [100%]
+
+============================= 17 passed in 2.59s ==============================
